@@ -1,0 +1,4 @@
+/* Hide app launcher */
+[class*=channelAppLauncher_] {
+  display: none;
+}

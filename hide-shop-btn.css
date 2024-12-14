@@ -1,0 +1,7 @@
+Peter:
+/* Hides Shop and (Optionally) Store button */
+/* [href="/store"],  */ /* Uncomment here to hide the store button */
+[href='/shop']
+{
+  display: none;
+}

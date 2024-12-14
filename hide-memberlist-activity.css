@@ -1,0 +1,5 @@
+/* hide activity in member list */
+[class^='membersGroup']:has([role=button]),
+[class^='member'] [class^='container']:has([class*='badges']) {
+  display: none;
+}

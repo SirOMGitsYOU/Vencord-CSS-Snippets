@@ -1,0 +1,4 @@
+/* Hides the "Play Again" from friendslist */
+[data-list-id^=private-channels] [class^=container_]:has(> [class^=itemContainer_] [class^=clickable_][aria-label])  {
+    display: none;
+}

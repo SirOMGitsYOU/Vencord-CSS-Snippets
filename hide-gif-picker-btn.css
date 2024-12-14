@@ -1,0 +1,4 @@
+/* Hide GIF picker button */
+button[aria-label="Open GIF picker"] {
+  display: none;
+}

@@ -1,0 +1,4 @@
+/* Hides Activity Quests */
+section[class^="panels_"]>div[class^="mask_"] {
+    display: none;
+}

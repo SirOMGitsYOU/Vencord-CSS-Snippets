@@ -1,0 +1,92 @@
+/* 
+Credit to suzuneu on reddit - https://www.reddit.com/r/BetterDiscord/comments/1jjv0sa/comment/mjuvzcl/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
+Reverts the server list and other features to mirror old Discord UI
+*/
+
+.markup__75297 a {
+  color: #00a6e6;
+}
+
+:where(.visual-refresh) .wrapperCommon__29444 .mainContent__29444 {
+  flex-direction: row-reverse;
+  justify-content: left;
+}
+
+.name__20a53 {
+  font-weight: 400;
+}
+
+.overflow__82b15 {
+  font-weight: 400;
+}
+
+.visual-refresh .closedFolderIconWrapper__48112 div {
+  border-radius: 50% !important;
+  width: 16px;
+  height: 16px;
+}
+
+.expandedFolderIconWrapper__48112 {
+  width: 48px !important;
+  height: 48px !important;
+  margin: 0 !important;
+}
+
+[id^=folder-items-] {
+  height: unset !important;
+}
+
+.blobContainer_e5445c foreignObject:hover,
+.blobContainer_e5445c.selected_e5445c foreignObject {
+  border-radius: 25% !important;
+}
+
+.blobContainer_e5445c foreignObject,
+.listItemWrapper__91816 foreignObject {
+  transition: border-radius 0.2s linear;
+  border-radius: 50%;
+}
+
+.stack_dbd263>.listItem__650eb,
+.listItemWrapper__91816 {
+  svg {
+    top: 0;
+    left: 0;
+  }
+
+  foreignObject {
+    transform: translate(-4px, -4px);
+    mask: none;
+  }
+
+  .wrapper_cc5dd2,
+  foreignObject,
+  .wrapper__6e9f8,
+  mask,
+  use,
+  img,
+  .acronym__6e9f8 {
+    width: 48px !important;
+    height: 48px !important;
+  }
+}
+
+.attachButtonInner__0923f>svg {
+  width: 26px;
+  height: 26px;
+}
+
+.attachButtonInner__0923f {
+  height: 26px;
+}
+
+.attachButton__0923f {
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+}
+
+.placeholder__1b31f,
+.editor__1b31f {
+  margin-left: 0 !important;
+}
